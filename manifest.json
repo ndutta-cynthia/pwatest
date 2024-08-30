@@ -3,6 +3,7 @@
     "short_name": "PWA",
     "description": "A dummy PWA for presentation purposes",
     "start_url": "/index.html",
+    "scope": "/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#4CAF50",
