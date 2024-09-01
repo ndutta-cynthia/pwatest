@@ -3,6 +3,7 @@ const urlsToCache = [
     "/",
     "/index.html",
     "/styles.css",
+    "/image.jpg",
     "/manifest.json",
     "/scanner.js"  // Add scanner.js to the cache list
 ];

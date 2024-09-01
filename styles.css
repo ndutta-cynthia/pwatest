@@ -25,6 +25,13 @@ main {
     margin: 20px 0;
 }
 
+.landing-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
 #scanner-container {
     position: relative;
     width: 100%;

@@ -1,5 +1,5 @@
 {
-    "name": "Barcode Scanner PWA",
+    "name": "Dummy PWA",
     "short_name": "Scanner PWA",
     "description": "A PWA that scans barcodes and QR codes and allows you to search the scanned information on Google.",
     "start_url": "/index.html",
