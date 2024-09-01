@@ -1,10 +1,10 @@
-const CACHE_NAME = "dummy-pwa-cache-v1";
+const CACHE_NAME = "barcode-scanner-pwa-cache-v1";
 const urlsToCache = [
     "/",
     "/index.html",
     "/styles.css",
-    "/image.jpg",  // Ensure you have an image named image.jpg in your project
-    "/manifest.json"
+    "/manifest.json",
+    "/scanner.js"  // Add scanner.js to the cache list
 ];
 
 // Install the service worker
@@ -20,7 +20,6 @@ self.addEventListener("install", event => {
 self.addEventListener("fetch", event => {
     event.respondWith(
         caches.match(event.request).then(response => {
-            // Return cached response or fetch the resource
             return response || fetch(event.request).catch(() => caches.match('/index.html'));
         })
     );
